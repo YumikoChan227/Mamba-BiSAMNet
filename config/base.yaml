@@ -1,0 +1,12 @@
+device: cuda:0
+
+train:
+  batch_size: 96
+  lr: 0.001
+  epochs: 100
+  gamma: 0.95
+  early_stopping: 10
+  weight_decay: 0.01
+
+test:
+  batch_size: 400
